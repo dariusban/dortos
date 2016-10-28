@@ -448,7 +448,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background: #6b4da8;
+	background: #fff;
 }
 #testimonials blockquote {
 	position: relative;
