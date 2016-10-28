@@ -233,7 +233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	float: right;
 }
 #about p {
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 30px;
 }
 /* Skills Section */
