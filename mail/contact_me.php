@@ -14,11 +14,11 @@ $email_address = $_POST['email'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
-$to = 'yourname@yourdomain.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'dariusz.ban@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
+$email_body = "Otrzymałaś nowa wiadomość ze strony dorstyl.pl.\n\n"."Szczegóły wiadomości:\n\nImię i nazwisko: $name\n\nEmail: $email_address\n\nWiadomość:\n$message";
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";	
+$headers .= "Odpisz do: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
 ?>
